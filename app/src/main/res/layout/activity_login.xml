@@ -1,25 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login"
-    android:orientation="vertical">
+    android:background="#161B3A"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/shopping" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email : "
+            android:textColor="#FFFFFF"
+            android:textSize="26dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#DCDCDC"
+            android:hint="- Email Adress -"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="73dp"
+            android:paddingTop="8dp"
+            android:paddingRight="70dp"
+            android:paddingBottom="8dp"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="7dp"
+            android:text="Pass : "
+            android:textColor="#FFFFFF"
+            android:textSize="26dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#DCDCDC"
+            android:hint="- Password -"
+            android:inputType="numberPassword"
+            android:paddingLeft="85dp"
+            android:paddingTop="8dp"
+            android:paddingRight="85dp"
+            android:paddingBottom="8dp"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:textSize="18dp"
-        android:textColor="#FFFFFF"
-        android:padding="18dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:background="#12209C"
-        android:onClick="openCart"/>
-
+        android:layout_marginTop="30dp"
+        android:background="#656565"
+        android:onClick="openCart"
+        android:paddingLeft="30dp"
+        android:paddingTop="12dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="12dp"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
 
 
 </LinearLayout>
