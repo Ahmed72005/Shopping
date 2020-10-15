@@ -23,4 +23,9 @@ public class m1 extends AppCompatActivity {
         Intent intent = new Intent(m1.this, M3.class);
         startActivity(intent);
     }
+
+    public void Mycart(View view) {
+        Intent intent = new Intent(m1.this, Mycart.class);
+        startActivity(intent);
+    }
 }

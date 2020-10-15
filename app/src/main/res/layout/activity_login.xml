@@ -31,14 +31,13 @@
             android:textSize="26dp" />
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="270dp"
             android:layout_height="wrap_content"
             android:background="#DCDCDC"
             android:hint="- Email Adress -"
             android:inputType="textEmailAddress"
-            android:paddingLeft="73dp"
+            android:paddingLeft="15dp"
             android:paddingTop="8dp"
-            android:paddingRight="70dp"
             android:paddingBottom="8dp"
             android:textColor="#000000"
             android:textSize="18dp" />
@@ -62,14 +61,13 @@
             android:textSize="26dp" />
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="270dp"
             android:layout_height="wrap_content"
             android:background="#DCDCDC"
             android:hint="- Password -"
             android:inputType="numberPassword"
-            android:paddingLeft="85dp"
+            android:paddingLeft="15dp"
             android:paddingTop="8dp"
-            android:paddingRight="85dp"
             android:paddingBottom="8dp"
             android:textColor="#000000"
             android:textSize="18dp" />

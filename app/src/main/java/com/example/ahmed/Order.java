@@ -6,21 +6,21 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class M3 extends AppCompatActivity {
+public class Order extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_m3);
+        setContentView(R.layout.activity_order);
     }
 
-    public void m2(View view) {
-        Intent intent = new Intent(M3.this, M2.class);
+    public void mycart(View view) {
+        Intent intent = new Intent(Order.this, Mycart.class);
         startActivity(intent);
     }
 
-    public void Mycart(View view) {
-        Intent intent = new Intent(M3.this, Mycart.class);
+    public void Puycard(View view) {
+        Intent intent = new Intent(Order.this, Puycard.class);
         startActivity(intent);
     }
 }
