@@ -1148,7 +1148,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="5dp"
         android:background="#000"
-        android:onClick="Puycard"
+        android:onClick="Order"
         android:paddingLeft="120dp"
         android:paddingRight="120dp"
         android:paddingBottom="2dp"

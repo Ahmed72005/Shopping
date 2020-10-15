@@ -24,8 +24,9 @@ public class Mycart extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void Puycard(View view) {
-        Intent intent = new Intent(Mycart.this, Puycard.class);
+
+    public void Order(View view) {
+        Intent intent = new Intent(Mycart.this, Order.class);
         startActivity(intent);
     }
 }
