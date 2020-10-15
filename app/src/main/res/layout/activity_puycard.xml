@@ -111,7 +111,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="90dp"
         android:layout_marginTop="10dp"
-        android:text="Price : 300$"
+        android:text="Price : 350$"
         android:textColor="#000"
         android:textSize="25sp" />
 
